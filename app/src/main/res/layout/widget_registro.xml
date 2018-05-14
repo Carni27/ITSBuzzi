@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40FFFFFF"
+    android:padding="@dimen/widget_margin">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back_date_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false"
+                android:background="@drawable/ic_chevron_left_white_36dp" />
+
+                <TextView
+                    android:id="@+id/txtDateWidget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toEndOf="@+id/back_date_widget"
+                    android:layout_toLeftOf="@+id/over_date_widget"
+                    android:layout_toRightOf="@+id/back_date_widget"
+                    android:layout_toStartOf="@+id/over_date_widget"
+                    android:layout_centerInParent="true"
+                    android:singleLine="false"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:text="pyova"
+                    android:textColor="#ffffff" />
+
+            <ImageButton
+                android:id="@+id/over_date_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="false"
+                android:background="@drawable/ic_chevron_right_white_36dp" />
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listViewWidget" />
+
+    </LinearLayout>
+
+</RelativeLayout>

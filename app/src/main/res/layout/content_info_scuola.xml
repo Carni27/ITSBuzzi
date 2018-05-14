@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.DeveloperDescriptionActivity"
+    tools:showIn="@layout/activity_info_scuola">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="L'Istituto Tecnico Industriale 'Tullio Buzzi' cresce sulle radici della 'Scuola per le industrie tessili e tintorie' fondata a Prato nel 1886. Nel corso dei suoi 130 anni di   attività, compiuti nel 2016, attraverso profonde e radicali evoluzioni, ha da sempre gettato le basi e fornito la preparazione, di alto livello, a tecnici e dirigenti del mondo tessile locale, contribuendo quindi in maniera decisiva all'evoluzione ed al positivo sviluppo di tutto il comprensorio industriale del territorio. Attualmente l'Istituto 'Buzzi' è dotato di strutture moderne, di un cospicuo patrimonio di attrezzature tecnico-scientifiche ed è ubicato in una dignitosa sede; in esso si svolge una proficua attività formativa, in linea con le odierne esigenze della società e nel solco di una tradizione di serietà ed efficienza. Il corso di studio, di durata quinquennale, è suddiviso in un biennio propedeutico ed in un triennio di specializzazione. Gli indirizzi funzionanti nel triennio sono sei: 'Sistema Moda ','Meccanica-Meccatronica', 'Meccanica-Energia', 'Chimica, Materiali e Biotecnologie', 'Elettronica ed Elettrotecnica' ed 'Informatica e Telecomunicazioni '. Al termine del corso di studio si consegue il diploma di 'Perito Industriale' che è titolo valido sia per l'inserimento nel mondo del lavoro sia per l'accesso all'esame di abilitazione per l'esercizio della libera professione. Il suddetto diploma, inoltre, consente l'iscrizione a tutti i corsi di laurea universitari. Il percorso di studi è organizzato in due parti, biennio e triennio.
+
+    Nei primi due anni gli studenti ricevono una preparazione generica che ricopre più o meno tutte le specializzazioni offerte dal triennio, ultimi anni di scuola nei quali aumentano le ore passate in laboratorio e le materie “d’orientamento” del biennio lasciano il posto a materie specifiche dell’indirizzo.
+
+    La scuola offre anche tantissime attività extra scolastiche, quali progetti multidisciplinari per i ragazzi o corsi extra scolastici, come il corso teatrale.
+
+    E’ presente anche il laboratorio conto terzi, recentemente ampliato e ristrutturato, punta di diamante dell’istituto, lavora nel campo della chimica si occupa di effettuare analisi ad alta precisione, vanta nel ventaglio dei clienti grandi industrie del territorio e brand di altissima moda.
+
+    Ad animare l’atmosfera a scuola, dal 1947 il Club goliardico delle Pagliette propone a cadenza annuale un divertentissimo spettacolo, accompagnato da relativo “Buzzino”, figura in ceramica sul tema dello spettacolo. Le Pagliette sono spesso protagoniste di lotte goliardiche con altri Club quali Tube o le Cicogne, di altre scuole della città. "
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </ScrollView>
+
+</RelativeLayout>

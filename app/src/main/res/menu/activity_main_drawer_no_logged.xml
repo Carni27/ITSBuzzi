@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/normal">
+        <item
+            android:id="@+id/nav_home"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_var_orario"
+            android:title="Variazione Orario" />
+    </group>
+    <group android:id="@+id/extra">
+        <item
+            android:id="@+id/nav_twitter"
+            android:title="Twitter" />
+        <item
+            android:id="@+id/nav_impostazioni"
+            android:title="Impostazioni" />
+        <item
+            android:id="@+id/nav_info_scuola"
+            android:title="Infomazioni sulla scuola" />
+    </group>
+
+</menu>
